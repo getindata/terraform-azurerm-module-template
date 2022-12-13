@@ -1,6 +1,14 @@
-# Example output from the module
+output "name" {
+  description = "Name of the resource"
+  value       = one(azurerm_public_ip.this[*].name)
+}
 
-output "example_output" {
-  description = "Example output of the module"
-  value       = var.example_var
+output "id" {
+  description = "ID of the resource"
+  value       = one(azurerm_public_ip.this[*].id)
+}
+
+output "resource_group_name" {
+  description = "Name of the resource resource group"
+  value       = one(azurerm_public_ip.this[*].resource_group_name)
 }
