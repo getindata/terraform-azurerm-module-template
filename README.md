@@ -21,7 +21,7 @@
 _Brief Description of MODULE:_
 
 * _What it does_
-* _What techonlogies it uses_
+* _What technologies it uses_
 
 ## USAGE
 
